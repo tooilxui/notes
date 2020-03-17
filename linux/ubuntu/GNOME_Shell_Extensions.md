@@ -1,0 +1,1 @@
+顯示應用程式 ->ubuntu軟體->附加元件->shell擴充套件>Dash to Panel,Dash to Dock.
