@@ -42,6 +42,19 @@
    $ cd fonts
    $ ./install.sh
    ```
+- 安裝Cascadia Code PL字體
+  ‵‵‵
+	$ wget https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaPL.ttf -O ~/.local/share/fonts/CascadiaPL.ttf
+  ‵‵‵
+- VSCode WSL 設定 (setting.json)
+  ```json
+  {
+    "editor.fontFamily": "'Cascadia Code PL','DejaVu Sans Mono for Powerline',Consolas, 'Courier New', monospace",
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": true
+  }
+  ```
+  
 - 安裝WSLtty 
 	WSLtty 官網有個 Windows 安裝程式，你直接到 Release 頁面下載最新版安裝並重開機即可。 [請抓*.exe 目前最新版本sltty-1.9.6-install.exe](wsltty-1.9.6-install.exe)
 - 設定WSLtty
