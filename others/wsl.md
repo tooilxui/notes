@@ -42,9 +42,10 @@
    $ cd fonts
    $ ./install.sh
    ```
-- 安裝Cascadia Code PL字體
+- 安裝PowerLine字體
   ‵‵‵
 	$ wget https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaPL.ttf -O ~/.local/share/fonts/CascadiaPL.ttf
+	$ wget github.com/powerline/fonts/blob/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf -O ~/.local/share/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
   ‵‵‵
 - VSCode WSL 設定 (setting.json)
   ```json
