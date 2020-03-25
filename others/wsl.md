@@ -147,7 +147,7 @@
     git config --global user.email "saxon@kenda.com.tw"
     ```
 	
-- VScode設定 (Cascadia字型要先安裝在windows上)
+- VScode字型設定 (Cascadia字型要先安裝在windows上)
   - settings.json
   ```json
   {
@@ -158,6 +158,18 @@
       "editor.fontFamily": "'Cascadia Code PL',Consolas, 'Courier New', monospace",
       "editor.mouseWheelZoom": true
   }
+  ```
+- Windows Terminal Preview 字型設定 (Cascadia字型要先安裝在windows上)
+  - profile.json
+  ```json
+    "profiles":
+    {
+        "defaults":
+        {
+            "fontFace":  "Cascadia Code PL"
+        },
+		/// .... 以下省略
+	}
   ```
 
 - 解決在 WSL 在 Disk I/O 超級超級慢的問題 (關閉 Windows Defender 即時保護功能)
