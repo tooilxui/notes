@@ -6,12 +6,15 @@
 - 安裝常用套件
   ```sh
   sudo apt upgrade && sudo apt update && \
-  sudo apt install zsh wget zip unzip git autojump && \
+  sudo apt install zsh wget zip unzip git autojump python && \
   sudo apt-get clean && sudo apt-get autoclean && sudo apt-get autoremove  
   sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
   ```
 - 安裝zsh常用套件
   ```sh
+  # 預設為zsh
+  chsh -s /usr/bin/zsh
+
   # autosuggestions
   git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
   
